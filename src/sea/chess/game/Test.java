@@ -14,6 +14,8 @@ public class Test {
 		System.out.print("Enter second player name: ");
 		String playerTwoName = scanner.nextLine();
 		
+		//assign 1 and 2 to players to optimize because
+		//we want to put a numbers into the matrix instead of strings
 		int player1 = 1;
 		int player2 = 2;
 
